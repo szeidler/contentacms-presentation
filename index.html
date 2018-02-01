@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Contenta CMS - Decoupled Drupal Starter Kit</title>
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+    <section>
+      <h1>Contenta CMS</h1>
+      <h3>Decoupled Drupal Starter Kit</h3>
+      <p>
+        <small>Stephan @ <a href="http://ramsalt.com" target="_blank">Ramsalt.com</a>
+        </small>
+      </p>
+    </section>
+
+    <section>
+      <section>
+        <h2>What is Decoupled Drupal?</h2>
+        <ul>
+          <li>Drupal used as a content hub / backend</li>
+          <li>Can be
+            <span class="fragment highlight-current-blue">consumed</span> and
+            <span class="fragment highlight-current-blue">manipulated</span> by
+            other
+            applications
+          </li>
+        </ul>
+      </section>
+
+      <section data-background-color="white">
+        <h2>What is Decoupled Drupal?</h2>
+        <ul>
+          <li>Data will be exposed via…
+          </li>
+        </ul>
+        <p class="fragment fade-right" style="text-align: left;">
+          <img src="img/rest-logo.png" style="background:none; border:none; box-shadow:none; max-width:300px;" alt="">
+        </p>
+        <p class="fragment fade-right" style="text-align: left;padding-left:33%">
+          <img style="bbackground:none; border:none; box-shadow:none; max-width:300px;" src="img/jsonapi-logo.png" alt="">
+        </p>
+        <p class="fragment fade-right" style="text-align: left;padding-left:66%">
+          <img style="background:none; border:none; box-shadow:none; max-width:300px;" src="img/graphql-logo.png" alt="">
+        </p>
+      </section>
+    </section>
+
+    <section>
+      <section data-background="img/goats-competition-dispute.jpg">
+        <h2>Reservoir vs. Contenta CMS</h2>
+      </section>
+
+      <section>
+        <h3>Oh no! Can't we just work together?</h3>
+      </section>
+
+      <section>
+        <h3>Puh… indeed they are.</h3>
+      </section>
+
+      <section>
+        <h3>Both distributions are utilizing the same contrib modules!</h3>
+      </section>
+    </section>
+
+    <section data-background-color="white">
+      <section>
+        <img src="img/00-contenta-cms.png" alt="" style="background:none; border:none; box-shadow:none; width:80%">
+      </section>
+      <section>
+        <h2>Contenta CMS</h2>
+        <p>The community-driven decoupled distribution</p>
+        <p style="float:left; width:50%;">
+          <img src="img/contenta-1-friendly.png" alt="" style="background:none; border:none; box-shadow:none;">
+        </p>
+        <p style="float:left; width:50%;">
+          <img src="img/contenta-2-usable.png" alt="" style="background:none; border:none; box-shadow:none;">
+        </p>
+        <p style="clear:both; float:left; width:50%;">
+          <img src="img/contenta-3-knowledge.png" alt="" style="background:none; border:none; box-shadow:none;">
+        </p>
+        <p style="float:left; width:50%;">
+          <img src="img/contenta-4-feature-complete.png" alt="" style="background:none; border:none; box-shadow:none;">
+        </p>
+      </section>
+    </section>
+
+    <section>
+      <section data-background="img/pexels-photo-97804.jpeg">
+        <h2>Decoupled challenges</h2>
+        <h4 class="fragment">And how Contenta CMS solves them…</h4>
+      </section>
+      <section>
+        <h2>How to provide data?</h2>
+        <ul>
+          <li class="fragment">JSON API</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Can i get rid off Drupalism's?</h2>
+        <ul>
+          <li class="fragment">JSON API Extras</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Where is my API documentation?</h2>
+        <ul>
+          <li class="fragment">OpenAPI</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Can I restrict access to my API?</h2>
+        <ul class="fragment">
+          <li>Simple oAuth</li>
+          <li>Consumers</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Original images are huge! Can I get image styles?</h2>
+        <ul>
+          <li class="fragment">Consumer Image Styles</li>
+        </ul>
+      </section>
+      <section>
+        <h2>The client wants to define the frontend routes</h2>
+        <ul>
+          <li class="fragment">Decoupled Router</li>
+        </ul>
+      </section>
+    </section>
+
+    <section data-background="img/old-man-time-watch-160785.jpeg">
+      <h3 class="fragment">Demo time…</h3>
+    </section>
+
+    <section>
+      <section>
+        <h3>Should I use Decoupled Drupal?</h3>
+        <p class="fragment">Well, it depends…</p>
+      </section>
+      <section>
+        <h3>Should I use Decoupled Drupal?</h3>
+        <p><img src="img/how-to-decouple-drupal-in-2018-flowchart-full.jpg" alt="" style="width:50%;"></p>
+        <span class="attribution"><small>Source: <a href="https://dri.es/how-to-decouple-drupal-in-2018" target="_blank">https://dri.es/how-to-decouple-drupal-in-2018</a></small></span>
+      </section>
+    </section>
+
+    <section>
+      <h3>Questions?</h3>
+    </section>
+
+  </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+  // More info about config & dependencies:
+  // - https://github.com/hakimel/reveal.js#configuration
+  // - https://github.com/hakimel/reveal.js#dependencies
+  Reveal.initialize({
+    dependencies: [
+      {src: 'plugin/markdown/marked.js'},
+      {src: 'plugin/markdown/markdown.js'},
+      {src: 'plugin/notes/notes.js', async: true},
+      {
+        src: 'plugin/highlight/highlight.js',
+        async: true,
+        callback: function () {
+          hljs.initHighlightingOnLoad();
+        }
+      }
+    ]
+  });
+</script>
+</body>
+</html>
